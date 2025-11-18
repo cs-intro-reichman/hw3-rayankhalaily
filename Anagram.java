@@ -60,9 +60,7 @@ public class Anagram {
 		if (str == null || str.length() == 0) {
 			return "";
 		}
-
-		str = str.trim();
-
+		
 		for (int i = 0; i < str.length(); i++) {
 			if (str.charAt(i) >= 'A' && str.charAt(i) <= 'Z') {
 				// uppercase to lowercase
