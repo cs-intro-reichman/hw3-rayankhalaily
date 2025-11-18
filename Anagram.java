@@ -60,14 +60,16 @@ public class Anagram {
 		if (str == null || str.length() == 0) {
 			return "";
 		}
+
 		
+
 		for (int i = 0; i < str.length(); i++) {
 			if (str.charAt(i) >= 'A' && str.charAt(i) <= 'Z') {
 				// uppercase to lowercase
 				str = str.substring(0, i) + (char)(str.charAt(i) + 32) + str.substring(i + 1);
 			}
 
-			if (str.charAt(i) == '!' || str.charAt(i) == '?' || str.charAt(i) == '.' || str.charAt(i) == ',' || str.charAt(i) == ';' || str.charAt(i) == ':') {
+			if (str.charAt(i) == '!' || str.charAt(i) == '?' || str.charAt(i) == '.' || str.charAt(i) == ',' || str.charAt(i) == ';' || str.charAt(i) == ':' || str.charAt(i) == ' ') {
 				// remove punctuation
 				str = str.substring(0, i) + str.substring(i + 1);
 				i--; // adjust index since we removed a character
