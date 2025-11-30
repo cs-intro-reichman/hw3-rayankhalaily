@@ -1,3 +1,7 @@
+/* Feedback:
+great work, very clean and readable!!
+ */
+
 public class Algebra {
 
     // a + b that supports negatives

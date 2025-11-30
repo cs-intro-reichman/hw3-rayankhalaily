@@ -1,4 +1,10 @@
 // Computes the periodical payment necessary to pay a given loan.
+// feedback:
+// your code is very clean and very readable 
+// but in some places your variable names are not desciptive enough 
+// when you write code you should ask yourself 
+// "if i read it in a month will i undestand it?"
+// apart from that really good
 public class LoanCalc {
 
     static double epsilon = 0.001;  // Approximation accuracy
