@@ -1,4 +1,6 @@
 /** Functions for checking if a given string is an anagram. */
+
+// feedback: very good
 public class Anagram {
     public static void main(String args[]) {
         System.out.println(isAnagram("aabbcc","abcabc"));  
